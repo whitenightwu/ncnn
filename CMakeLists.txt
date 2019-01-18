@@ -21,7 +21,7 @@ set(COVERAGE OFF CACHE BOOL "Coverage")
 
 project(ncnn)
 
-option(NCNN_OPENMP "openmp support" ON)
+option(NCNN_OPENMP "openmp support" OFF)
 option(NCNN_STDIO "load model from external file" ON)
 option(NCNN_STRING "plain and verbose string" ON)
 option(NCNN_OPENCV "minimal opencv structure emulation" OFF)
